@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+    <style>
+h1{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    color: #009688;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:  linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(living\ room\ pic\ 2.jpeg) no-repeat  center center / cover;
+}
+p{
+    color: #ffff;
+    margin-left: 110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    color: #009688;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
+'Trebuchet MS', sans-serif;
+}
+a:hover{
+    color:#073d38;
+}
+.king{
+
+}
+
+.container{
+    border: 3px solid #fff;
+    background-color: transparent;
+    width: 500px;
+    height: 453px;
+   margin: auto;
+   border-radius: 7px;
+   cursor: pointer;
+}
+.container:hover{
+    border: 3px solid #009688;
+}
+input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+input::-webkit-input-placeholder{
+transition: all 0.3s ease-in-out;
+}
+input:hover::-webkit-input-placeholder{
+    font-size: 12px;
+    color: #009688;
+}
+input:focus::-webkit-input-placeholder{
+    font-size: 12px;
+    color: #009688;
+}
+input:hover{
+    border-color: #009688;
+}
+input:focus{
+    border-color: #009688;
+}
+input:focus{
+    outline: none;
+}
+input{
+    margin-left: 7%;
+    margin-top: 10%;
+    width: 80%;
+    padding: 10px;
+border-color: #fff;
+border-style: solid;
+border-left: none;
+border-top: none;
+border-right: none;
+background-color: transparent;
+
+}
+.btn{
+    margin-left: 38% ;
+    margin-top: 4%;
+}
+.login{
+  width: 120px;
+  height: 45px;
+  border-radius: 60px;
+    border: none;
+    color: #fff;
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 16px;
+    background-color: #009688;
+    cursor: pointer;
+}
+.login:hover{
+    color: #009688;
+    background-color: #fff;
+
+}
+.login:active{
+    opacity: 0.3;
+}
+
+    </style>
+</head>
+<body>
+    <div class="king">
+        <h1>SIGN UP</h1>
+        <div class="container">
+                <input  type="text" placeholder="Full Name"><br>
+                <input  type="email" placeholder="Email">
+                <input  type="password" placeholder="Password">
+                <input  type="confirm-password" placeholder="Confirm Password">
+                    <div class="btn">
+                        <button class="login" type="submit">SIGN UP</button>
+                    </div>
+                    <p>If you already have an Account <a href="log in.html">Log in</a></p>
+            </div>
+    
+    </div>
+    
+</body>
+</html>
